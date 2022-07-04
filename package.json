@@ -1,0 +1,43 @@
+{
+  "name": "leafvein",
+  "version": "1.0.2",
+  "description": "leafvein",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/vein.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rimraf -rm ./dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zealleaf/leafvein.git"
+  },
+  "keywords": [
+    "collect"
+  ],
+  "author": "zealleaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zealleaf/leafvein/issues"
+  },
+  "homepage": "https://github.com/zealleaf/leafvein#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.75.7",
+    "rollup-plugin-filesize": "^9.1.2",
+    "rollup-plugin-gzip": "^3.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "leafvein-catalogue": "^1.0.8"
+  }
+}
