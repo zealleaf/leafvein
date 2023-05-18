@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 "use strict";
+import open from "open";
 
-require("open")("https://zealleaf.me/tags/leafvein");
+open("https://github.com/zealleaf/leafvein#readme");
